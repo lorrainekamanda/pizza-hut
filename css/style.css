@@ -1,0 +1,14 @@
+#tryOut{
+     background-image: url("../images/pizza13.jpg"); 
+     background-size: cover;
+     background-repeat: no-repeat;
+     color: white;
+     justify-content: center;
+     height: 900px;
+}
+#order{
+    padding-top: 50px;
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    margin-top: 150px;
+}
