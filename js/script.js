@@ -51,6 +51,78 @@ $("#tryOut").hover(function(){
 $("#welcome").slideToggle(1000)
 })
 
+$("#lg1").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2> <li>HAWAIAN CRUST LARGE ORDER: " +  pizza1.getLargePiza() + " </li> <h2>")
+})
+
+$("#md1").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> HAWAIAN CRUST MEDIUM ORDER: " +  pizza1.getMediumPiza() + "</li></h2>")
+$(last) +=(this)
+})
+
+$("#sm1").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> HAWAIAN CRUST SMALL ORDER: " +  pizza1.getSmallpiza() + "</li></h2>")
+})
+$("#lg2").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li>  CHEESE BURGER CRUST LARGE ORDER : " +  pizza2.getLargePiza() + "</h2></li>")
+})
+
+$("#md2").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li>CHEESE BURGER CRUST MEDIUM ORDER : " +  pizza2.getMediumPiza() + "</h2></li>")
+})
+
+$("#sm2").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li>CHEESE BURGER CRUST SMALL ORDER : " + pizza2.getSmallpiza() + "</h2></li>" )
+})
+$("#lg3").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li>MEAT DELUXE CRUST LARGE  ORDER :  " + pizza3.getLargePiza() + "</h2></li>" )
+})
+
+$("#md3").click(function(event){
+    event.preventDefault()
+$("#para").append(" <h2><li> MEAT DELUXE CRUST MEDIUM ORDER :  " + pizza3.getMediumPiza() + "</h2></li>" )
+})
+
+$("#sm3").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> MEAT DELUXE CRUST SMALL ORDER :  " + pizza3.getSmallpiza() + "</h2><</li>")
+})
+$("#lg4").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> CHICKEN MACON BBQ LARGE ORDER : " + pizza4.getLargePiza() + "</h2><li>" )
+})
+
+$("#md4").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> CHICKEN MACON BBQ MEDIUM ORDER : " + pizza4.getMediumPiza() + "</h2><li>" )
+})
+
+$("#sm4").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> CHICKEN MACON BBQ SMALL ORDER : " + pizza4.getSmallpiza() + "</h2><li>")
+})
+$("#lg5").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> VEG FEST LARGE ORDER :  " + pizza5.getLargePiza()+ "</h2><li>" )
+})
+
+$("#md5").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> VEG FEST MEDIUM ORDER :  " + pizza5.getMediumPiza()+ "</h2><li>" )
+})
+
+$("#sm5").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> VEG FEST SMALL ORDER : " + pizza5.getSmallpiza() + "</h2><li>" )
+})
+
 
 
 })
