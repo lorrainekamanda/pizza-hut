@@ -123,7 +123,83 @@ $("#sm5").click(function(event){
 $("#para").append("<h2><li> VEG FEST SMALL ORDER : " + pizza5.getSmallpiza() + "</h2><li>" )
 })
 
+$("#tp1").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2> <li>Beef Mushroom Toopings: " +  topping1.getToppingFirst() + " </li> <h2>")
 
+})
+
+$("#tp2").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Black Olives Toppings: " +  topping1.getToppingSecond() + "</li></h2>")
+$(last) +=(this)
+})
+
+$("#tp3").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Sausage Toppings: " + topping1.getToppingThird() + "</li></h2>")
+})
+$("#tp4").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li>  Chicken Toppings : " +  topping2.getToppingFirst() + "</h2></li>")
+})
+
+$("#tp5").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Garlic Toppings : " +  topping2.getToppingSecond() + "</h2></li>")
+})
+
+$("#tp6").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li>Spinach Toppings: " + topping2.getToppingThird() + "</h2></li>" )
+})
+$("#tp7").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li>Onion Toppings:  " + topping3.getToppingFirst() + "</h2></li>" )
+})
+
+$("#tp8").click(function(event){
+    event.preventDefault()
+$("#para").append(" <h2><li>Eggplant Toppings :  " + topping3.getToppingSecond() + "</h2></li>" )
+})
+
+$("#tp9").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Broccoli Toppings:  " + topping3.getToppingThird() + "</h2><</li>")
+})
+$("#tp10").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Green Peppers : " + topping4.getToppingFirst() + "</h2><li>" )
+})
+
+$("#tp11").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Oregano : " + topping4.getToppingSecond() + "</h2><li>" )
+})
+
+$("#tp12").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Basil Toppings : " + topping4.getToppingThird() + "</h2><li>")
+})
+$("#tp13").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Extra Chesse Toppings :  " + topping5.getToppingFirst()+ "</h2><li>" )
+})
+
+$("#tp14").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Pepperoni Toppings:  " + topping5.getToppingSecond()+ "</h2><li>" )
+})
+
+$("#tp15").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Bacon Toppings : " + topping5.getToppingThird() + "</h2><li>" )
+})
+
+$("#forme").submit(function(event){
+event.preventDefault()
+ $(".hidden").toggle(1000)
+})
 
 })
 
