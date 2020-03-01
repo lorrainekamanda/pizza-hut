@@ -159,3 +159,123 @@ h2{
 
 
 
+.row0{
+    margin-bottom: 20px;
+}
+.row1{
+    background-color: black;
+    margin-bottom: 5px;
+    font-family: 'Dancing Script';
+}
+.row2{
+    background-color: black;
+    margin-bottom: 5px;
+}
+.row3{
+    background-color: black;
+    margin-bottom: 5px;
+}
+.row4{
+    background-color: black;
+    margin-bottom: 5px;
+}
+.row5{
+    background-color: black;
+    margin-bottom: 5px;
+}
+.row6{
+    background-color: black;
+    margin-bottom: 5px;
+}
+#word{
+    font-size: 44px;
+    font-family: 'Dancing Script';
+}
+ #butt{
+    margin-top: 30px;
+    margin-bottom: 50px;
+} 
+#table1{
+    padding-left: 30px;
+}
+td{
+    cursor: pointer;
+  }
+td:hover{
+    text-decoration: underline;
+    color: red;
+  }
+h3{
+      background-color: black;
+      color: red;
+      font-style: 'Dancing Script';
+  }
+#para{
+    list-style: none ;
+}
+
+#about{
+    color: white;
+    font-family: 'Dancing Script';
+}
+.row0{
+    height: 300px;
+    margin-bottom: 20px;
+}
+.col1{
+    height: 500px;
+    font-family: 'Dancing Script';
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    font-size: 22px;
+    margin-left: 0px;
+}
+.container0{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+footer{
+    background-image: url("../images/bg_1.jpg");
+    height: 300px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#loc{
+    font-family: 'Dancing Script';
+    font-size: 34px;
+    color: white;
+    margin-right: 450px;
+   
+}
+#mail{
+    font-family: 'Dancing Script';
+    color: white;
+    font-size: 34px;
+    margin-right: 0px;
+}
+.row8{
+    margin-left: 250px;
+    margin-right: 250px;
+    
+}
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid red;
+    color: white;
+}
+.hidden{
+    display: none;
+}
+form{
+    color: white;
+}
+#tweets{
+    font-family: 'Dancing Script';
+    color: white;
+    margin-top:5px;
+    margin-left: 40px;
+}
