@@ -10,7 +10,8 @@
     padding-top: 50px;
     font-family: 'Dancing Script';
     font-size: 50px;
-    margin-top: 150px;
+    margin-top: 200px;
+    margin-bottom: 50px;
 }
 .container1{
     margin: 0px;
@@ -20,10 +21,11 @@
     width: 100%;
     max-width: none;
     width: 900px;
+    
 }
 #img0{
     height: 500px;
-    width: 670px;
+    width: 750px;
     margin-bottom: 30px;
     margin-top: 10px;
 
@@ -63,7 +65,7 @@
     font-size: 24px;
     background-size: cover;
     color: red;
-    background-color:black;
+    background-image: url("../images/bg_4.jpg");
     display: inline-block;
     list-style: none;
     width: 100%;
@@ -163,28 +165,35 @@ h2{
     margin-bottom: 20px;
 }
 .row1{
-    background-color: black;
+    background-image: url("../images/bg_4.jpg");
     margin-bottom: 5px;
     font-family: 'Dancing Script';
 }
 .row2{
-    background-color: black;
+    background-image: url("../images/bg_4.jpg");
     margin-bottom: 5px;
 }
+.row22{
+    margin-bottom: 5px;
+}
+
 .row3{
-    background-color: black;
+    background-image: url("../images/bg_4.jpg");
     margin-bottom: 5px;
 }
 .row4{
-    background-color: black;
+    background-image: url("../images/bg_4.jpg");
     margin-bottom: 5px;
 }
 .row5{
-    background-color: black;
-    margin-bottom: 5px;
+    background-image: url("../images/bg_4.jpg");
+    margin-bottom: 15px;
 }
 .row6{
-    background-color: black;
+    background-image: url("../images/bg_4.jpg");
+    margin-bottom: 5px;
+}
+.row7{
     margin-bottom: 5px;
 }
 #word{
@@ -231,12 +240,21 @@ h3{
     font-size: 22px;
     margin-left: 0px;
 }
+.col2{
+    height: 500px;
+    font-family: 'Dancing Script';
+    background-image: url("../images/bg_4.jpg");
+    color: white;
+    margin-top: 10px;
+    font-size: 22px;
+    margin-left: 0px;
+}
 .container0{
     margin-left: 0%;
     margin-right: 0%;
 }
 footer{
-    background-image: url("../images/bg_1.jpg");
+    background-image: url("../images/bg_4.jpg");
     height: 300px;
     padding-bottom: 30px;
     margin-bottom: 20px;
@@ -278,4 +296,19 @@ form{
     color: white;
     margin-top:5px;
     margin-left: 40px;
+}
+#order2{
+    margin-top: 60px;
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    margin-bottom:60px;
+}
+#cart{
+    height: 100px;
+    width: 100px;
+    
+}
+#butt{
+    background-color: red;
+    font-family: 'Dancing Script';
 }
