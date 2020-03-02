@@ -312,3 +312,6 @@ form{
     background-color: red;
     font-family: 'Dancing Script';
 }
+#para{
+    display: none;
+}
