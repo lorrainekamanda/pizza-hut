@@ -18,7 +18,6 @@ Pizza.prototype.getDelivery = function(){
     return this.delivery
 }
 
-
 function Tooping (topping1,topping2,topping3){
    this.topping1 = topping1 
    this.topping2 = topping2
@@ -209,20 +208,69 @@ event.preventDefault()
 
 $("#cart").click(function(event){
     event.preventDefault()
-$("#para").append("<h2><li> total is; " + total + "</h2><li>" )
+$("#para").slideToggle(1000)
 })
 
 })
 
-var total = 0
-if (pizza1.getLargePiza()) {
-     total = total + 1200
-}
- 
-else if (pizza1.getMediumPiza()){
-    total = total + 800
-}
-else if (
-    pizza1.getSmallPiza()){
-        total = total + 500
-}
+
+
+
+
+
+//  Pizza.prototype.totalCost = function() {
+//     if (this.large === "lg1") {
+//       this.cost += 1200;
+//     } else if (this.medium === "md1") {
+//       this.cost += 800;
+//     } else if (this.small === "sm1") {
+//       this.cost += 500;
+//     }else if (this.large === "lg2") {
+//     this.cost += 2000;
+//     } else if (this.medium === "md2") {
+//     this.cost += 1500;
+//     } else if (this.small === "sm2") {
+//     this.cost += 1000;
+//     } else if (this.large === "lg3") {
+//     this.cost += 1500;
+//     } else if (this.medium === "md3") {
+//     this.cost += 800;
+//     } else if (this.small === "sm3") {
+//     this.cost += 500;
+//    } ;
+    
+    
+    // if (this.extraToppings === "ham") {
+    //   this.toppingsPrice += 200;
+    // } else if (this.extraToppings === "cheese") {
+    //   this.toppingsPrice += 200;
+    // } else if (this.extraToppings === "olives") {
+    //   this.toppingsPrice += 200;
+    // }else if (this.extraToppings === "mushrooms") {
+    //   this.toppingsPrice += 200;
+    // }else if (this.extraToppings === "bacon") {
+    //   this.toppingsPrice += 200;
+    // };
+    // if(this.delivery == "delivered"){
+    //   this.deliveryPrice = 300;
+    // } else if(delivery == "collected"){
+    //   this.deliveryPrice = 0;
+    // }
+    this.cost = (this.large + this.medium + this.small) 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
