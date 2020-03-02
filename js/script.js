@@ -46,6 +46,14 @@ var pizza4 =  new Pizza (2000,1300,850)
 var pizza5 =  new Pizza (2500,1800,1000)
 
 
+function Crust( thick,thin,deep){
+    this.thick = thick
+    this.thin = thin
+    this.deep = deep
+}
+
+
+
 
 
 
@@ -205,6 +213,21 @@ event.preventDefault()
  $("#para").append("<h2><li> Delivery Charges : " + pizza1.getDelivery() + "</h2><li>" )
 
 })
+$("#crust1").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Thick Crust </h2><li>" )
+})
+$("#crust2").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Thin Crust </h2><li>" )
+})
+$("#crust3").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Deep Crust </h2><li>" )
+})
+
+
+
 
 $("#cart").click(function(event){
     event.preventDefault()
@@ -213,50 +236,6 @@ $("#para").slideToggle(1000)
 
 })
 
-
-
-
-
-
-//  Pizza.prototype.totalCost = function() {
-//     if (this.large === "lg1") {
-//       this.cost += 1200;
-//     } else if (this.medium === "md1") {
-//       this.cost += 800;
-//     } else if (this.small === "sm1") {
-//       this.cost += 500;
-//     }else if (this.large === "lg2") {
-//     this.cost += 2000;
-//     } else if (this.medium === "md2") {
-//     this.cost += 1500;
-//     } else if (this.small === "sm2") {
-//     this.cost += 1000;
-//     } else if (this.large === "lg3") {
-//     this.cost += 1500;
-//     } else if (this.medium === "md3") {
-//     this.cost += 800;
-//     } else if (this.small === "sm3") {
-//     this.cost += 500;
-//    } ;
-    
-    
-    // if (this.extraToppings === "ham") {
-    //   this.toppingsPrice += 200;
-    // } else if (this.extraToppings === "cheese") {
-    //   this.toppingsPrice += 200;
-    // } else if (this.extraToppings === "olives") {
-    //   this.toppingsPrice += 200;
-    // }else if (this.extraToppings === "mushrooms") {
-    //   this.toppingsPrice += 200;
-    // }else if (this.extraToppings === "bacon") {
-    //   this.toppingsPrice += 200;
-    // };
-    // if(this.delivery == "delivered"){
-    //   this.deliveryPrice = 300;
-    // } else if(delivery == "collected"){
-    //   this.deliveryPrice = 0;
-    // }
-    this.cost = (this.large + this.medium + this.small) 
   
   
   
