@@ -1,7 +1,8 @@
-function Pizza( large,medium,small){
+function Pizza( large,medium,small,delivery){
 this.large = large;
 this.medium = medium;
 this.small = small;
+this.delivery= delivery;
 
 }
 Pizza.prototype.getLargePiza = function(){
@@ -12,6 +13,9 @@ Pizza.prototype.getMediumPiza = function(){
 }
 Pizza.prototype.getSmallpiza = function(){
     return this.small
+}
+Pizza.prototype.getDelivery = function(){
+    return this.delivery
 }
 
 
@@ -36,7 +40,7 @@ var topping3 = new Tooping(400,300,200)
 var topping4 = new Tooping(300,250,200)
 var topping5 = new Tooping(300,200,250)
 
-var pizza1 =  new Pizza(1200,800,500)
+var pizza1 =  new Pizza(1200,800,500,250)
 var pizza2 =  new Pizza(2000,1500,1000)
 var pizza3 =  new Pizza(1500,1100,750)
 var pizza4 =  new Pizza (2000,1300,850)
@@ -199,9 +203,26 @@ $("#para").append("<h2><li> Bacon Toppings : " + topping5.getToppingThird() + "<
 $("#forme").submit(function(event){
 event.preventDefault()
  $(".hidden").toggle(1000)
+ $("#para").append("<h2><li> Delivery Charges : " + pizza1.getDelivery() + "</h2><li>" )
+
+})
+
+$("#cart").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> total is; " + total + "</h2><li>" )
 })
 
 })
 
-
-
+var total = 0
+if (pizza1.getLargePiza()) {
+     total = total + 1200
+}
+ 
+else if (pizza1.getMediumPiza()){
+    total = total + 800
+}
+else if (
+    pizza1.getSmallPiza()){
+        total = total + 500
+}
