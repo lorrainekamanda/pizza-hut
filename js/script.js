@@ -215,15 +215,15 @@ event.preventDefault()
 })
 $("#crust1").click(function(event){
     event.preventDefault()
-$("#para").append("<h2><li> Thick Crust </h2><li>" )
+$("#para").append("<h2><li> Thick Crust :300 </h2><li>" )
 })
 $("#crust2").click(function(event){
     event.preventDefault()
-$("#para").append("<h2><li> Thin Crust </h2><li>" )
+$("#para").append("<h2><li> Thin Crust: 400 </h2><li>" )
 })
 $("#crust3").click(function(event){
     event.preventDefault()
-$("#para").append("<h2><li> Deep Crust </h2><li>" )
+$("#para").append("<h2><li> Deep Crust:  500 </h2><li>" )
 })
 
 
