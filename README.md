@@ -6,7 +6,7 @@
  This is a Pizzeria website,it is designed for the purpose off online pizza deliveries  <br/>
  The website is responsive and easy to navigate,it is very fun,appealing  and interactive<br/>
 
- ![L'Rain Pizza Hut](images/bg_1.png)
+ ![L'Rain Pizza Hut](images/log11.png)
 
 
 
