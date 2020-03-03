@@ -226,8 +226,55 @@ $("#crust3").click(function(event){
 $("#para").append("<h2><li> Deep Crust:  500 </h2><li>" )
 })
 
+$("#crust4").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Thick Crust :300 </h2><li>" )
+})
+$("#crust5").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Thin Crust: 400 </h2><li>" )
+})
+$("#crust6").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Deep Crust:  500 </h2><li>" )
+})
+$("#crust7").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Thick Crust :300 </h2><li>" )
+})
+$("#crust8").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Thin Crust: 400 </h2><li>" )
+})
+$("#crust9").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Deep Crust:  500 </h2><li>" )
+})
 
-
+$("#crust10").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Thick Crust :300 </h2><li>" )
+})
+$("#crust11").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Thin Crust: 400 </h2><li>" )
+})
+$("#crust12").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Deep Crust:  500 </h2><li>" )
+})
+$("#crust13").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Thick Crust :300 </h2><li>" )
+})
+$("#crust14").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Thin Crust: 400 </h2><li>" )
+})
+$("#crust15").click(function(event){
+    event.preventDefault()
+$("#para").append("<h2><li> Deep Crust:  500 </h2><li>" )
+})
 
 $("#cart").click(function(event){
     event.preventDefault()
